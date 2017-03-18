@@ -40,6 +40,11 @@ slots: [
       date: 28,
       day: 1 // originally 2 but... americans -.-
     },
+    coverage: {
+      ideal: 3,
+      penaltyMore: 0.1,
+      penaltyLess: 2.7
+    },
     workers: [
       {
         name: 'Dott. Passaglia',
@@ -57,6 +62,7 @@ slots: [
     shift: 'Mattino',
     date: { ... },
     workers: [ ... ],
+    coverage: { ... },
     features: [
       {
         name: 'Festività', // not holidays in real life
